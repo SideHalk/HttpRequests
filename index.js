@@ -16,7 +16,7 @@ function GETrequest(URL,callback) {
 
 //POST
 
-function GETrequest(URL,obj,callback) {
+function POSTrequest(URL,obj,callback) {
   var objJSON = JSON.stringify(obj);
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
